@@ -1,2 +1,11 @@
-@import './common';
-@import './example';
+@import './base/common';
+@import './base/reset';
+@import './base/container';
+
+@import './components/title';
+@import './components/statistics';
+@import './components/btn-play-stop';
+@import './components/reproduction';
+@import './components/map';
+
+@import './utils/hidden';

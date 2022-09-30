@@ -1,0 +1,24 @@
+.statistics {
+  display: flex;
+  align-items: flex-end;
+}
+
+.statistics__list {
+  padding-top: 13px;
+  padding-bottom: 36px;
+  margin-right: 140px;
+}
+.statistics__number {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.statistics__text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.statistics__item:not(:last-child) {
+  margin-bottom: 24px;
+}

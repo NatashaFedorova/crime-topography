@@ -1,0 +1,51 @@
+.reproduction {
+  position: relative;
+  padding-top: 26px;
+  padding-bottom: 42px;
+}
+
+.graph {
+  display: block;
+}
+
+.graph__icon {
+  fill: #222222;
+}
+
+.date-search {
+  position: absolute;
+  top: 76px;
+  left: 10px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-search__btn {
+  display: block;
+  border: 0;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  margin-bottom: 4px;
+}
+
+.data-card {
+  position: relative;
+  display: inline-block;
+  padding-top: 4px;
+  background-color: transparent;
+}
+
+.data-card__thumb {
+  background-color: #222222;
+  padding: 4px 8px;
+}
+
+.data-card__icon-vector {
+  position: absolute;
+  top: 0px;
+  left: 47%;
+  fill: #222222;
+}

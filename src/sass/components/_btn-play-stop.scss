@@ -1,0 +1,17 @@
+.btn-play,
+.btn-stop {
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: white;
+  cursor: pointer;
+}
+
+.btn-play__icon-play,
+.btn-stop__icon--stop {
+  fill: #fff;
+}
