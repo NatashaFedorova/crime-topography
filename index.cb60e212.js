@@ -1,0 +1,2 @@
+const t={btnPlay:document.querySelector(".js-btn-play"),btnStop:document.querySelector(".js-btn-stop")};function n(){t.btnStop.classList.add("is-hidden")}t.btnPlay.addEventListener("click",(function(n){console.log("Click play"),t.btnPlay.classList.add("is-hidden"),t.btnStop.classList.remove("is-hidden")})),t.btnStop.addEventListener("click",(function(s){console.log("Click stop"),n(),t.btnPlay.classList.remove("is-hidden")})),n();
+//# sourceMappingURL=index.cb60e212.js.map
