@@ -39,3 +39,17 @@ function btnStopIsHidden() {
 function btnStopIsNotHidden() {
   refs.btnStop.classList.remove('is-hidden');
 }
+fetch('http://localhost:3000/events')
+  .then(r => r.json())
+  .then(events => {
+    // console.log(events[events.length - 100]); // 24-02-2022
+    // console.log(events[events.length - 1]); // 16-09-2022
+    let total = 0;
+    events.filter((eventEl, idx, events) => {
+      if (idx >= events.length - 100) {
+        total += 1;
+        console.log(total);
+        console.log(idx, eventEl); // 20455-20553
+      }
+    });
+  });
